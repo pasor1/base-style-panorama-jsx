@@ -223,40 +223,40 @@ const baseStylePanorama = () => {
           <p style={{ margin: '10px 10px 0', color: '#555' }} id="text">Input fields</p>
           <div style={{ border: '1px solid #bbb', padding: '10px', borderRadius: '10px' }}>
             <p>
-              <label htmlFor="input__text">Text Input</label>
-              <input id="input__text" type="text" placeholder="Text Input" />
+              <label htmlFor="input_text">Text Input</label>
+              <input id="input_text" type="text" placeholder="Text Input" />
             </p>
             <p>
-              <label htmlFor="input__password">Password</label>
-              <input id="input__password" type="password" placeholder="Type your Password" />
+              <label htmlFor="input_password">Password</label>
+              <input id="input_password" type="password" placeholder="Type your Password" />
             </p>
             <p>
-              <label htmlFor="input__webaddress">Web Address</label>
-              <input id="input__webaddress" type="url" placeholder="http://yoursite.com" />
+              <label htmlFor="input_webaddress">Web Address</label>
+              <input id="input_webaddress" type="url" placeholder="http://yoursite.com" />
             </p>
             <p>
-              <label htmlFor="input__emailaddress">Email Address</label>
-              <input id="input__emailaddress" type="email" placeholder="name@email.com" />
+              <label htmlFor="input_emailaddress">Email Address</label>
+              <input id="input_emailaddress" type="email" placeholder="name@email.com" />
             </p>
             <p>
-              <label htmlFor="input__phone">Phone Number</label>
-              <input id="input__phone" type="tel" placeholder="(999) 999-9999" />
+              <label htmlFor="input_phone">Phone Number</label>
+              <input id="input_phone" type="tel" placeholder="(999) 999-9999" />
             </p>
             <p>
-              <label htmlFor="input__search">Search</label>
-              <input id="input__search" type="search" placeholder="Enter Search Term" />
+              <label htmlFor="input_search">Search</label>
+              <input id="input_search" type="search" placeholder="Enter Search Term" />
             </p>
             <p>
-              <label htmlFor="input__text2">Number Input</label>
-              <input id="input__text2" type="number" placeholder="Enter a Number" />
+              <label htmlFor="input_text2">Number Input</label>
+              <input id="input_text2" type="number" placeholder="Enter a Number" />
             </p>
             <p>
-              <label htmlFor="input__text3" className="error">Error</label>
-              <input id="input__text3" className="is-error" type="text" placeholder="Text Input" />
+              <label htmlFor="input_text3" className="error">Error</label>
+              <input id="input_text3" className="is-error" type="text" placeholder="Text Input" />
             </p>
             <p>
-              <label htmlFor="input__text4" className="valid">Valid</label>
-              <input id="input__text4" className="is-valid" type="text" placeholder="Text Input" />
+              <label htmlFor="input_text4" className="valid">Valid</label>
+              <input id="input_text4" className="is-valid" type="text" placeholder="Text Input" />
             </p>
           </div>
         </div>
@@ -345,19 +345,8 @@ const baseStylePanorama = () => {
           </div>
         </div>
       </main>
-
-
-
-
-
-
-
-
-
-
-
       <footer role="contentinfo">
-        <p><a href="http://github.com/pasor1">GitHub</a></p>
+        <p>Made by <a href="https://github.com/pasor1">Pasor1</a> - <a href="https://github.com/pasor1/base-style-panorama-jsx">Github</a></p>
       </footer>
     </div>
   )
